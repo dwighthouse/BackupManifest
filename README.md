@@ -113,6 +113,8 @@ As you can see with the speed report above, generating a manifest for a few larg
 
 Comparing the two output manifests is even faster
 
-* Large file manifest: 25 kb of json
-* Small file manifest: 10,670.6 kb of json
+* Large file manifest: 25 KB of JSON
+* Small file manifest: 10,670.6 KB of JSON
 * Comparison report generated in 2.3 seconds
+
+As a final note, all the the heavy lifting functions (the hasher and file readers) are built as streams and async, so running these commands do not consume all that much resources.
