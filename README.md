@@ -11,24 +11,30 @@ Currently provides two tools
 To install as a stand-alone tool
 
 1. Clone the repo to the desired directory
-```
-> git clone https://github.com/dwighthouse/BackupManifest.git
-```
+
+    ```
+    > git clone https://github.com/dwighthouse/BackupManifest.git
+    ```
+
 2. Navigate to the BackupManifest directory
-```
-> cd cd BackupManifest/
-```
+
+    ```
+    > cd cd BackupManifest/
+    ```
+
 3. Using [NPM](http://howtonode.org/introduction-to-npm), install the dependencies with
-```
-> npm install
-```
+
+    ```
+    > npm install
+    ```
 
 To install as a dependency
 
 1. Use NPM to download and install into the node_modules directory
-```
-> npm install backup-manifest
-```
+
+    ```
+    > npm install backup-manifest
+    ```
 
 ## Generating Manifests
 
