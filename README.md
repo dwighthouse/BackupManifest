@@ -117,4 +117,4 @@ Comparing the two output manifests is even faster
 * Small file manifest: 10,670.6 KB of JSON
 * Comparison report generated in 2.3 seconds
 
-As a final note, all the the heavy lifting functions (the hasher and file readers) are built as streams and async, so running these commands do not consume all that much resources.
+As a final note, all the the heavy lifting functions (the hasher and file readers) are built as streams and async, so running these commands will not consume all that many resources.
