@@ -1,4 +1,4 @@
-# BackupManifest
+# backup-manifest
 Tools for recursively generating hash manifests for whole directories of files. Useful for backup validation.
 
 Currently provides two tools
@@ -13,13 +13,13 @@ To install as a stand-alone tool
 1. Clone the repo to the desired directory
 
     ```
-    > git clone https://github.com/dwighthouse/BackupManifest.git
+    > git clone https://github.com/dwighthouse/backup-manifest.git
     ```
 
 2. Navigate to the BackupManifest directory
 
     ```
-    > cd cd BackupManifest/
+    > cd backup-manifest/
     ```
 
 3. Using [NPM](http://howtonode.org/introduction-to-npm), install the dependencies with
